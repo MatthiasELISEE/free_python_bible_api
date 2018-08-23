@@ -9,7 +9,7 @@ Before getting verses you need to set the Bible file.
 ```python
 import free_bible_api
 
-free_bible_api.set_bible(kjv.xml)
+free_bible_api.set_bible("kjv.xml")
 ```
 
 Then there are different ways to get verses :
