@@ -32,6 +32,6 @@ print(free_bible_api.osisID_from_reference("Genesis  5: 4"))
 # Gen.5.4
 ```
 
-Use it as much as you want, and please report bugs.
+# Use it as much as you want, and please report bugs.
 
 _1 Corinthians 10:31 Whether therefore ye eat, or drink, or whatsoever ye do, do all to the glory of God._
