@@ -227,4 +227,6 @@ def text_from_references(reference):
 	
 	reference_list=splitted_references+reference_list
 	return ''.join(text_from_reference(str(s)) for s in reference_list)
+set_bible("lsg.xml")
+print(text_from_references("Amo 3:4-6; jude 4,6; Gen7.8"))
 # using it with node https://ourcodeworld.com/articles/read/286/how-to-execute-a-python-script-and-retrieve-output-data-and-errors-in-node-js
