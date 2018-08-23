@@ -12,7 +12,7 @@ import free_bible_api
 free_bible_api.set_bible("kjv.xml")
 ```
 
-Then there are different ways to get verses :
+There are 2 different ways to get verses :
 
 ```python
 
@@ -20,13 +20,16 @@ Then there are different ways to get verses :
 print(free_bible_api.text_from_references("Am 3:4-6; jude 4,6; Gen7.8"))
 # The Bible can be in whatever language you want, but the reference must be in French or English.
 
+# Get verse from OSIS id :
+print(free_bible_api.text_from_osisID("Gen.5.4"))
+```
+You can also just translate a reference in French or English to an clean OSIS id.
+
+```python
 # Reference to OSIS ID translator
 print(free_bible_api.osisID_from_reference("Genesis  5: 4"))
 # prints : 
 # Gen.5.4
-
-# Get verse from OSIS id :
-print(free_bible_api.text_from_osisID("Gen.5.4"))
 ```
 
 Use it as much as you want, and please report bugs.
